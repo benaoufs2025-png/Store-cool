@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "name": "CoolStore · Coolray",
+  "apps": [
+    {
+      "id": "coolstore",
+      "name": "CoolStore",
+      "packageName": "fr.coolray.coolstore",
+      "versionName": "1.0.0",
+      "versionCode": 1,
+      "description": "Le catalogue personnel d’applications pour Coolray.",
+      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/CoolStore-v1.0-debug.apk",
+      "sha256": "9d2244d6e7e16f51e594c676e90721ae5bd0e9d224d4ef974a862bfd621f7c12",
+      "sizeBytes": 37610,
+      "minAndroid": 23
+    }
+  ]
+}
