@@ -1,25 +1,32 @@
 <!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>CoolStore · Coolray</title>
-  <style>
-    :root{color-scheme:dark;--bg:#09111f;--panel:#101d31;--cyan:#39d8ff;--text:#f7fbff;--muted:#a4b4ca}
-    *{box-sizing:border-box}body{margin:0;background:var(--bg);font:16px system-ui;color:var(--text)}
-    main{max-width:920px;margin:auto;padding:48px 24px}header{display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid #24334b;padding-bottom:24px}
-    h1{font-size:clamp(36px,8vw,72px);margin:0;letter-spacing:-.06em}header span{color:var(--cyan);font-weight:700}.grid{display:grid;gap:16px;margin-top:28px}
-    article{background:var(--panel);border-radius:18px;padding:22px;display:grid;grid-template-columns:1fr auto;gap:10px 24px}h2,p{margin:0}p{color:var(--muted)}
-    a{align-self:center;background:var(--cyan);color:var(--bg);padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:800}.empty{padding:70px 0;text-align:center;color:var(--muted)}
-  </style>
-</head>
-<body><main><header><h1>COOLSTORE</h1><span>COOLRAY</span></header><section id="apps" class="grid"><p class="empty">Chargement…</p></section></main>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CoolStore · Coolray</title>
+<style>
+:root{color-scheme:dark;--bg:#07101d;--panel:#101d31;--panel2:#172740;--cyan:#39d8ff;--text:#f7fbff;--muted:#9fb0c9}*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 80% -10%,#153b55 0,transparent 35%),var(--bg);font:15px system-ui;color:var(--text)}
+main{max-width:1180px;margin:auto;padding:36px 24px 70px}header{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-size:clamp(34px,6vw,68px);font-weight:900;letter-spacing:-.06em}.brand b{color:var(--cyan)}.pill{border:1px solid #2a4964;border-radius:99px;padding:9px 14px;color:var(--cyan)}
+.hero{margin:28px 0;background:linear-gradient(120deg,#132b43,#0e1b2c);border:1px solid #1e3c55;border-radius:28px;padding:32px;display:grid;grid-template-columns:1fr auto;gap:24px}
+.hero h1{font-size:clamp(27px,4vw,46px);margin:0 0 10px}.hero p{max-width:650px;color:var(--muted);font-size:17px;margin:0}.hero strong{font-size:54px;color:var(--cyan)}
+.tools{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}input{flex:1;min-width:260px;background:var(--panel);color:var(--text);border:1px solid #29425e;border-radius:15px;padding:14px 18px;font:inherit}
+.filters{display:flex;gap:8px;overflow:auto;padding-bottom:4px}.filters button{white-space:nowrap;background:var(--panel);color:var(--text);border:0;border-radius:13px;padding:12px 15px;font-weight:700}.filters button.active{background:var(--cyan);color:var(--bg)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:15px;margin-top:20px}article{background:var(--panel);border:1px solid #1d324d;border-radius:20px;padding:20px;display:grid;grid-template-columns:52px 1fr;gap:14px;transition:.2s}
+article:hover{transform:translateY(-3px);border-color:#39708e;background:var(--panel2)}.icon{width:52px;height:52px;border-radius:15px;background:var(--cyan);color:var(--bg);display:grid;place-items:center;font-size:24px;font-weight:900}
+h2{font-size:19px;margin:0}.meta{color:var(--cyan);font-size:12px;font-weight:800;text-transform:uppercase;margin:3px 0 9px}.desc{color:var(--muted);margin:0;min-height:40px}
+.actions{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;border-top:1px solid #20344d;padding-top:13px}.size{color:var(--muted)}a.install{background:var(--cyan);color:var(--bg);padding:10px 16px;border-radius:11px;text-decoration:none;font-weight:900}.empty{text-align:center;color:var(--muted);padding:70px}
+@media(max-width:600px){.hero{grid-template-columns:1fr}.hero strong{font-size:36px}main{padding:22px 14px}}
+</style></head><body><main>
+<header><div class="brand">COOL<b>STORE</b></div><div class="pill">GEELY COOLRAY</div></header>
+<section class="hero"><div><h1>Vos applications, prêtes pour la route.</h1><p>Catalogue personnel vérifié avec contrôle SHA‑256 avant chaque installation.</p></div><strong id="count">—</strong></section>
+<div class="tools"><input id="search" placeholder="Rechercher une application…"><div class="filters" id="filters"></div></div>
+<section id="apps" class="grid"><p class="empty">Chargement du catalogue…</p></section></main>
 <script>
-fetch('./catalog.json',{cache:'no-store'}).then(r=>r.json()).then(data=>{
- document.title=data.name||'CoolStore';const root=document.querySelector('#apps');root.innerHTML='';
- if(!data.apps.length){root.innerHTML='<p class="empty">Le catalogue est prêt. Ajoutez votre premier APK.</p>';return}
- data.apps.forEach(app=>{const el=document.createElement('article');el.innerHTML='<div><h2></h2><p></p></div><a>APK</a>';
- el.querySelector('h2').textContent=app.name+' · v'+app.versionName;el.querySelector('p').textContent=app.description||'';
- el.querySelector('a').href=app.apkUrl;root.appendChild(el)})
-}).catch(()=>document.querySelector('#apps').innerHTML='<p class="empty">Catalogue indisponible.</p>')
+const icons={Navigation:'⌖','Multimédia':'▶',Audio:'♪',Outils:'⚙',Auto:'◆',Culture:'✦'};let apps=[],category='Toutes';
+const size=n=>n<1048576?Math.max(1,Math.round(n/1024))+' Ko':(n/1048576).toFixed(1)+' Mo';
+function render(){const q=document.querySelector('#search').value.toLowerCase();const shown=apps.filter(a=>(category==='Toutes'||a.category===category)&&((a.name+' '+a.description+' '+a.packageName).toLowerCase().includes(q)));const root=document.querySelector('#apps');root.innerHTML='';
+if(!shown.length){root.innerHTML='<p class="empty">Aucune application trouvée.</p>';return}
+shown.forEach(a=>{const el=document.createElement('article');el.innerHTML='<div class="icon"></div><div><h2></h2><div class="meta"></div><p class="desc"></p></div><div class="actions"><span class="size"></span><a class="install">TÉLÉCHARGER</a></div>';
+el.querySelector('.icon').textContent=icons[a.category]||'●';el.querySelector('h2').textContent=a.name;el.querySelector('.meta').textContent=a.category+' · v'+a.versionName;el.querySelector('.desc').textContent=a.description;el.querySelector('.size').textContent=size(a.sizeBytes);el.querySelector('a').href=a.apkUrl;root.appendChild(el)})}
+fetch('./catalog.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{apps=d.apps;document.querySelector('#count').textContent=apps.length+' APPS';const cats=['Toutes',...new Set(apps.map(a=>a.category))];const f=document.querySelector('#filters');
+cats.forEach((c,i)=>{const b=document.createElement('button');b.textContent=(icons[c]||'⌂')+' '+c;b.className=i?'':'active';b.onclick=()=>{category=c;[...f.children].forEach(x=>x.classList.remove('active'));b.classList.add('active');render()};f.appendChild(b)});render()}).catch(()=>document.querySelector('#apps').innerHTML='<p class="empty">Catalogue indisponible.</p>');
+document.querySelector('#search').addEventListener('input',render);
 </script></body></html>
