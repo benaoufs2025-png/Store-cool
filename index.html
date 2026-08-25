@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CoolStore · Coolray</title>
+  <style>
+    :root{color-scheme:dark;--bg:#09111f;--panel:#101d31;--cyan:#39d8ff;--text:#f7fbff;--muted:#a4b4ca}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);font:16px system-ui;color:var(--text)}
+    main{max-width:920px;margin:auto;padding:48px 24px}header{display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid #24334b;padding-bottom:24px}
+    h1{font-size:clamp(36px,8vw,72px);margin:0;letter-spacing:-.06em}header span{color:var(--cyan);font-weight:700}.grid{display:grid;gap:16px;margin-top:28px}
+    article{background:var(--panel);border-radius:18px;padding:22px;display:grid;grid-template-columns:1fr auto;gap:10px 24px}h2,p{margin:0}p{color:var(--muted)}
+    a{align-self:center;background:var(--cyan);color:var(--bg);padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:800}.empty{padding:70px 0;text-align:center;color:var(--muted)}
+  </style>
+</head>
+<body><main><header><h1>COOLSTORE</h1><span>COOLRAY</span></header><section id="apps" class="grid"><p class="empty">Chargement…</p></section></main>
+<script>
+fetch('./catalog.json',{cache:'no-store'}).then(r=>r.json()).then(data=>{
+ document.title=data.name||'CoolStore';const root=document.querySelector('#apps');root.innerHTML='';
+ if(!data.apps.length){root.innerHTML='<p class="empty">Le catalogue est prêt. Ajoutez votre premier APK.</p>';return}
+ data.apps.forEach(app=>{const el=document.createElement('article');el.innerHTML='<div><h2></h2><p></p></div><a>APK</a>';
+ el.querySelector('h2').textContent=app.name+' · v'+app.versionName;el.querySelector('p').textContent=app.description||'';
+ el.querySelector('a').href=app.apkUrl;root.appendChild(el)})
+}).catch(()=>document.querySelector('#apps').innerHTML='<p class="empty">Catalogue indisponible.</p>')
+</script></body></html>

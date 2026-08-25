@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "name": "CoolStore · Coolray",
+  "apps": [
+    {
+      "id": "exemple-navigation",
+      "name": "Navigation",
+      "packageName": "com.exemple.navigation",
+      "versionName": "1.2.0",
+      "versionCode": 12,
+      "description": "Remplacez cette entrée par les informations réelles de votre APK.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps/navigation-1.2.0.apk",
+      "sha256": "REMPLACEZ_PAR_64_CARACTERES_HEXADECIMAUX",
+      "sizeBytes": 12345678,
+      "minAndroid": 23
+    }
+  ]
+}
