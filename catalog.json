@@ -6,12 +6,12 @@
       "id": "coolstore",
       "name": "CoolStore",
       "packageName": "fr.coolray.coolstore",
-      "versionName": "1.1.0",
-      "versionCode": 2,
-      "description": "Le catalogue personnel d’applications optimisé pour l’écran du Coolray.",
-      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/CoolStore-v1.1.apk",
-      "sha256": "833f5c3d48c61d7961bba63659cfee501d218926e0605ace5cd0c2ec9b89b675",
-      "sizeBytes": 28348,
+      "versionName": "1.2.0",
+      "versionCode": 3,
+      "description": "Le catalogue personnel d’applications optimisé pour l’écran du Coolray, avec synchronisation automatique depuis GitHub.",
+      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/CoolStore-v1.2.apk",
+      "sha256": "260d46b17c7a1d9b23859f1f31455b2d45f2679162400ba2aae313b3bba987fd",
+      "sizeBytes": 800243,
       "minAndroid": 23,
       "category": "Auto",
       "featured": true
@@ -359,6 +359,32 @@
       "minAndroid": 28,
       "category": "Multimédia",
       "featured": true
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "packageName": "com.spotify.music",
+      "versionName": "9.1.76.2055",
+      "versionCode": 145242161,
+      "description": "Spotify complet pour la musique, les playlists et les podcasts.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v2/spotify-9.1.76.2055.apk",
+      "sha256": "7f9c7bbc83428bcbc6af8215ecc5bc3c7d712a7b0b9c847b47f1f8fcef1422f7",
+      "sizeBytes": 145951653,
+      "minAndroid": 24,
+      "category": "Audio"
+    },
+    {
+      "id": "vlc",
+      "name": "VLC",
+      "packageName": "org.videolan.vlc",
+      "versionName": "3.5.4",
+      "versionCode": 13050404,
+      "description": "Lecteur multimédia VLC pour vidéos, musique et fichiers locaux.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v2/vlc-3.5.4.apk",
+      "sha256": "9fa3d8fa26c3c6816923f0e357a233f982e633932e8602a614abdfa797ec5623",
+      "sizeBytes": 35933852,
+      "minAndroid": 17,
+      "category": "Multimédia"
     }
   ]
 }
