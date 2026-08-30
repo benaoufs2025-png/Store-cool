@@ -385,6 +385,71 @@
       "sizeBytes": 35933852,
       "minAndroid": 17,
       "category": "Multimédia"
+    },
+    {
+      "id": "wallpaper",
+      "name": "Fond d'écran",
+      "packageName": "com.souqbiza.fondecran",
+      "versionName": "1.2",
+      "versionCode": 3,
+      "description": "Fonds d'écran conçus pour personnaliser l'écran du véhicule.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v3/coolwallpaper-1.2.apk",
+      "sha256": "8dcf39f515763461fb180fa9a9178d08458e77adc69533f27cc5c9ce868350b2",
+      "sizeBytes": 20526367,
+      "minAndroid": 26,
+      "category": "Auto"
+    },
+    {
+      "id": "quran",
+      "name": "Quran",
+      "packageName": "com.quran.labs.androidquran",
+      "versionName": "3.6.1",
+      "versionCode": 3610,
+      "description": "Lecture et consultation du Coran.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v3/quran-3.6.1.apk",
+      "sha256": "bd12cfff2b0dbd2713c373b304f279e93e17b5ff951bda3abe09cf5b57342935",
+      "sizeBytes": 7676700,
+      "minAndroid": 21,
+      "category": "Culture"
+    },
+    {
+      "id": "tiktok-lite",
+      "name": "TikTok Lite",
+      "packageName": "com.zhiliaoapp.musically.go",
+      "versionName": "46.7.2",
+      "versionCode": 460702,
+      "description": "Version allégée de TikTok pour regarder des vidéos.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v3/tiktok-lite-46.7.2.apk",
+      "sha256": "e055cc6c6f6eed7240adaecbdbbfd39f2ce118be06d94829a1bc512ef7d736c0",
+      "sizeBytes": 87082076,
+      "minAndroid": 21,
+      "category": "Multimédia"
+    },
+    {
+      "id": "microg",
+      "name": "microG Services",
+      "packageName": "app.revanced.android.gms",
+      "versionName": "0.3.13.2.250932",
+      "versionCode": 250932004,
+      "description": "Service requis par YouTube ReVanced.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v3/microg-0.3.13.2.apk",
+      "sha256": "62119f040d629a9cd3225f280649a464936730c6466cafb5b9dd5ded14269a65",
+      "sizeBytes": 105561934,
+      "minAndroid": 19,
+      "category": "Outils"
+    },
+    {
+      "id": "xbooster",
+      "name": "XBooster - Volume Booster",
+      "packageName": "volumebooster.sound.loud.speaker.booster",
+      "versionName": "1.7.1.40",
+      "versionCode": 40,
+      "description": "Amplification du volume pour la musique et les vidéos.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v3/xbooster-1.7.1.40.apk",
+      "sha256": "663a73c6b5dd32396ad02b78aed576c408ed04c1836a1315bf7ee28801559971",
+      "sizeBytes": 28595201,
+      "minAndroid": 21,
+      "category": "Audio"
     }
   ]
 }
