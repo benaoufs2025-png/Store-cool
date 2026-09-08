@@ -455,6 +455,35 @@
       "sizeBytes": 28595201,
       "minAndroid": 21,
       "category": "Audio"
+    },
+    {
+      "id": "mini-carte",
+      "name": "Coolray Mini Carte",
+      "packageName": "com.coolray.mapoverlay",
+      "versionName": "1.4R-modern-icon-cache-test",
+      "versionCode": 17,
+      "description": "Mini carte et repère de navigation conçus pour l'écran Coolray.",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/mini-carte.png",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v4/mini-carte-1.4R.apk",
+      "sha256": "ec2f91574a3987e7444831616bb4d3e3186ed5f087d4aa11a2a49862199d2e31",
+      "sizeBytes": 34693,
+      "minAndroid": 23,
+      "category": "Navigation",
+      "featured": true
+    },
+    {
+      "id": "firefox",
+      "name": "Firefox",
+      "packageName": "org.mozilla.firefox",
+      "versionName": "149.0.1",
+      "versionCode": 2016152287,
+      "description": "Navigateur Firefox pour l'accès au Web.",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/firefox.webp",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v4/firefox-149.0.1.apk",
+      "sha256": "d6b085a41cf5d8445e5591debe1888cf81342c344e16894d90241490bc5ca7aa",
+      "sizeBytes": 613568559,
+      "minAndroid": 26,
+      "category": "Internet"
     }
   ]
 }
