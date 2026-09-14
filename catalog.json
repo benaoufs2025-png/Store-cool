@@ -484,6 +484,19 @@
       "sizeBytes": 613568559,
       "minAndroid": 26,
       "category": "Internet"
+    },
+    {
+      "id": "drama-live",
+      "name": "Drama Live",
+      "packageName": "com.livedrama.app",
+      "versionName": "22",
+      "versionCode": 2147483647,
+      "description": "Lecteur IPTV et chaînes en direct.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v5/Drama_Live_v22.00_By_play8store.apk",
+      "sha256": "e801f95cdb70d97f982f3a46ba39242ec25dd064f0f01ee72c4abe73d8347383",
+      "sizeBytes": 16420153,
+      "minAndroid": 16,
+      "category": "Multimédia"
     }
   ]
 }
