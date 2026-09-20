@@ -498,6 +498,62 @@
       "minAndroid": 16,
       "category": "Multimédia",
       "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/drama-live.png"
+    },
+    {
+      "id": "angry-birds",
+      "name": "Angry Birds",
+      "packageName": "com.rovio.angrybirds.freetime",
+      "versionName": "7.0.0",
+      "versionCode": 22570000,
+      "description": "Jeu Angry Birds en plein écran.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v7/Angry_Birds_7.0.0_fullscreen_sign.apk",
+      "sha256": "6b3b272c4e960c3602f5f33abe25b2cc7921cdf81e8d527df2cdec92a49c5fc9",
+      "sizeBytes": 57266061,
+      "minAndroid": 16,
+      "category": "Jeux",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/angry-birds.png"
+    },
+    {
+      "id": "morphius-hu",
+      "name": "Morphius",
+      "packageName": "com.coolray.morphius.hu",
+      "versionName": "0.3.66-beta",
+      "versionCode": 86,
+      "description": "Interface Android Auto pour l’écran embarqué.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v7/Morphius-HU.apk",
+      "sha256": "242961c9ad74b94831fc958d8fcbc87d10c7336da7cee586aef6d5170cbc3196",
+      "sizeBytes": 306408,
+      "minAndroid": 28,
+      "category": "Auto",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/morphius.png"
+    },
+    {
+      "id": "sideeye",
+      "name": "SideEye",
+      "packageName": "com.glide.cam",
+      "versionName": "1.0",
+      "versionCode": 1,
+      "description": "Caméra latérale pour le système embarqué.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v7/SideEye.v1.1.apk",
+      "sha256": "6a65e10fb1cbc7f819c5ea6e87d44051b7f66ff2c51b20a5e9ae80734e8130b8",
+      "sizeBytes": 5418612,
+      "minAndroid": 28,
+      "category": "Auto",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/sideeye.png"
+    },
+    {
+      "id": "stagelight",
+      "name": "App Manager",
+      "packageName": "com.dmkcv.stagelight",
+      "versionName": "1.2",
+      "versionCode": 105,
+      "description": "Gestionnaire d’applications Stagelight.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v7/stagelight-release-1.2.apk",
+      "sha256": "1b9156fc5889b23b37abba9ccc9f5f93ecc3baa8684a96f96bd8bf0a4450ae8b",
+      "sizeBytes": 22958513,
+      "minAndroid": 28,
+      "category": "Outils",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/stagelight.webp"
     }
   ]
 }
