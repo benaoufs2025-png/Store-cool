@@ -41,7 +41,8 @@
       "sizeBytes": 42958568,
       "minAndroid": 16,
       "category": "Auto",
-      "featured": true
+      "featured": true,
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/headunit-reloaded.png"
     },
     {
       "id": "organic-maps",
@@ -55,7 +56,8 @@
       "sizeBytes": 114609865,
       "minAndroid": 21,
       "category": "Navigation",
-      "featured": true
+      "featured": true,
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/organic-maps.png"
     },
     {
       "id": "chrome",
@@ -81,7 +83,8 @@
       "sha256": "fc8b763b15524062d10b052e99f6e1212a8273fbcfa9957912934bf406442317",
       "sizeBytes": 67352808,
       "minAndroid": 17,
-      "category": "Culture"
+      "category": "Culture",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/ayah.png"
     },
     {
       "id": "aures-eyes",
@@ -107,7 +110,8 @@
       "sha256": "eb277931eb330be0ce25f70b688012361f3fbc581cf4de5760981dddac5e25f0",
       "sizeBytes": 1124342,
       "minAndroid": 14,
-      "category": "Multimédia"
+      "category": "Multimédia",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/youtube-lite.png"
     },
     {
       "id": "volume-booster",
@@ -120,7 +124,8 @@
       "sha256": "62917bcd1cf35835b062b0737918c771a157b012f05bdb21405143302e6293ff",
       "sizeBytes": 19018247,
       "minAndroid": 21,
-      "category": "Audio"
+      "category": "Audio",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/volume-booster.png"
     },
     {
       "id": "algerian-radio",
@@ -133,7 +138,8 @@
       "sha256": "8314f6bb788787b85f93d29a7a424d75203758c05a5631af317d8d78e0b8c49b",
       "sizeBytes": 19436742,
       "minAndroid": 19,
-      "category": "Audio"
+      "category": "Audio",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/algerian-radio.png"
     },
     {
       "id": "file-manager-plus",
@@ -146,7 +152,8 @@
       "sha256": "3b5ab6c5a9467988ae7377934aeeae4df8d9d82fdee2c8f13d5d22ac8f0e2b28",
       "sizeBytes": 9844718,
       "minAndroid": 21,
-      "category": "Outils"
+      "category": "Outils",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/file-manager-plus.png"
     },
     {
       "id": "freetube",
@@ -159,7 +166,8 @@
       "sha256": "d1fa3b1c5e5bc788fc8c2aeccc6915b03d209b3bb55da36aefa7944918a123c4",
       "sizeBytes": 4116395,
       "minAndroid": 15,
-      "category": "Multimédia"
+      "category": "Multimédia",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/freetube.png"
     },
     {
       "id": "gps-navigation",
@@ -172,7 +180,8 @@
       "sha256": "894b3ab67d9c351af4a3450cbb1e54475832b7ee94e66fb4d13e9885fac1444a",
       "sizeBytes": 42150206,
       "minAndroid": 21,
-      "category": "Navigation"
+      "category": "Navigation",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/gps-navigation.png"
     },
     {
       "id": "gsplit",
@@ -198,7 +207,8 @@
       "sha256": "e2b69b494cc21bf71fe49e5232a43f0ae7442d01774e6efba7d58d53dbcbd2ea",
       "sizeBytes": 15287181,
       "minAndroid": 16,
-      "category": "Auto"
+      "category": "Auto",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/headunit-revived.webp"
     },
     {
       "id": "iron-tv-max",
@@ -211,7 +221,8 @@
       "sha256": "d58f40674dde15270f212e8ec795891d0fcb22b91dc1f17cf03f31c6a0286e94",
       "sizeBytes": 80235833,
       "minAndroid": 21,
-      "category": "Multimédia"
+      "category": "Multimédia",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/iron-tv-max.png"
     },
     {
       "id": "maps",
@@ -238,7 +249,8 @@
       "sha256": "7b6c7c571a7c26ab3c3aa858ae15d9ad7200626cd072deb6b50b010440ed892e",
       "sizeBytes": 31877271,
       "minAndroid": 21,
-      "category": "Multimédia"
+      "category": "Multimédia",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/neo-4k-pro.png"
     },
     {
       "id": "black-screen",
@@ -251,7 +263,8 @@
       "sha256": "eed058acc5cb034c17014ccd41cd990ebedabf41a0bc0beda038ea2067d0233b",
       "sizeBytes": 1049023,
       "minAndroid": 14,
-      "category": "Outils"
+      "category": "Outils",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/black-screen.png"
     },
     {
       "id": "netfly",
@@ -264,7 +277,8 @@
       "sha256": "3c467e22b5071756dcdd921d4b6488ee5ae1ffad377f9e58624c0a06afa138bb",
       "sizeBytes": 64352479,
       "minAndroid": 24,
-      "category": "Multimédia"
+      "category": "Multimédia",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/netfly.png"
     },
     {
       "id": "smarttube",
@@ -278,7 +292,8 @@
       "sizeBytes": 41796990,
       "minAndroid": 17,
       "category": "Multimédia",
-      "featured": true
+      "featured": true,
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/smarttube.png"
     },
     {
       "id": "spotify-lite",
@@ -292,7 +307,8 @@
       "sizeBytes": 17734857,
       "minAndroid": 21,
       "category": "Audio",
-      "featured": true
+      "featured": true,
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/spotify-lite.png"
     },
     {
       "id": "sunray-toolkit",
@@ -305,7 +321,8 @@
       "sha256": "5b5c8fc16b6fa94e65fc4abf706718afe91be390a2c6b437d8182f6b742c5b29",
       "sizeBytes": 7417912,
       "minAndroid": 28,
-      "category": "Auto"
+      "category": "Auto",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/sunray-toolkit.png"
     },
     {
       "id": "vradio",
@@ -318,7 +335,8 @@
       "sha256": "d56df684eff31bd71b61849efce6cfea0c2ad238ed795dbb5ed9e8822d63643e",
       "sizeBytes": 17655187,
       "minAndroid": 21,
-      "category": "Audio"
+      "category": "Audio",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/vradio.png"
     },
     {
       "id": "weather",
@@ -331,7 +349,8 @@
       "sha256": "d9fd9f8b59874e474d50eccfa347e8f1c41ab3c477d8714245382c6d5ae5bc37",
       "sizeBytes": 5182066,
       "minAndroid": 28,
-      "category": "Auto"
+      "category": "Auto",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/weather.webp"
     },
     {
       "id": "yacine-tv",
@@ -344,7 +363,8 @@
       "sha256": "bb9c15aef72fdc05741abae9638f08c5f668e476e6746bd51ccc5440bb31cbc0",
       "sizeBytes": 10304337,
       "minAndroid": 21,
-      "category": "Multimédia"
+      "category": "Multimédia",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/yacine-tv.png"
     },
     {
       "id": "youtube",
@@ -358,7 +378,8 @@
       "sizeBytes": 182801780,
       "minAndroid": 28,
       "category": "Multimédia",
-      "featured": true
+      "featured": true,
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/youtube.png"
     },
     {
       "id": "spotify",
@@ -371,7 +392,8 @@
       "sha256": "7f9c7bbc83428bcbc6af8215ecc5bc3c7d712a7b0b9c847b47f1f8fcef1422f7",
       "sizeBytes": 145951653,
       "minAndroid": 24,
-      "category": "Audio"
+      "category": "Audio",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/spotify.webp"
     },
     {
       "id": "vlc",
