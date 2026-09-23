@@ -576,6 +576,20 @@
       "minAndroid": 28,
       "category": "Outils",
       "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/stagelight.webp"
+    },
+    {
+      "id": "coolray-dash",
+      "name": "Coolray Dash",
+      "packageName": "com.coolray.dash",
+      "versionName": "1.47-widget-theme-button",
+      "versionCode": 48,
+      "description": "Tableau de bord Coolray avec widget, thèmes et commandes rapides.",
+      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/OrdinateurDeBord_FR_EN_AR_BoutonThemeWidget_v1.47.apk",
+      "sha256": "23b926e1fb60354b209a5e64a224f1d23944ef95f354212a3b19cabb35e8668e",
+      "sizeBytes": 1866188,
+      "minAndroid": 28,
+      "category": "Auto",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/coolray-dash.png"
     }
   ]
 }
