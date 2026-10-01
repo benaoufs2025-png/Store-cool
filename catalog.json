@@ -6,11 +6,11 @@
       "id": "coolstore",
       "name": "CoolStore",
       "packageName": "fr.coolray.coolstore",
-      "versionName": "2.6.0",
-      "versionCode": 17,
-      "description": "Le catalogue personnel d’applications optimisé pour l’écran du Coolray, avec le logo Lysteria et les compteurs de téléchargements GitHub.",
-      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/coolstore-v2.6/CoolStore-v2.6.apk",
-      "sha256": "b5d499fbc79378ab308e85f6139d3e4a448c60d87a0e523cda3a586f3df948b5",
+      "versionName": "2.7.0",
+      "versionCode": 18,
+      "description": "Le catalogue personnel d’applications optimisé pour l’écran du Coolray. La mise à jour de CoolStore est obligatoire avant d’utiliser le catalogue.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/coolstore-v2.7/CoolStore-v2.7.apk",
+      "sha256": "9e7c78afd86504f41d047f3244aa9aec2ee19732abab89ae12ee7ea22739fd87",
       "sizeBytes": 2162345,
       "minAndroid": 23,
       "category": "Auto",
@@ -618,5 +618,6 @@
       "minAndroid": 26,
       "category": "Auto"
     }
-  ]
+  ],
+  "forceStoreUpdate": true
 }
