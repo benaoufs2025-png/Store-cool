@@ -6,11 +6,11 @@
       "id": "coolstore",
       "name": "CoolStore",
       "packageName": "fr.coolray.coolstore",
-      "versionName": "2.8.0",
-      "versionCode": 19,
-      "description": "Le catalogue personnel d’applications optimisé pour l’écran du Coolray, avec correctif de démarrage et mise à jour obligatoire.",
-      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/coolstore-v2.8/CoolStore-v2.8.apk",
-      "sha256": "86e5f49f1ff959fe2507a04ac7e799ffcb1903904252beb3a62a9588fbdb1fdf",
+      "versionName": "2.9.0",
+      "versionCode": 20,
+      "description": "Le catalogue personnel d’applications optimisé pour l’écran du Coolray, version stable.",
+      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/coolstore-v2.9/CoolStore-v2.9.apk",
+      "sha256": "e95fb8c6bb3cacce69985f0fc29f8def96d91b7c34e216d4bd8c3d7c825a393c",
       "sizeBytes": 2162345,
       "minAndroid": 23,
       "category": "Auto",
@@ -619,5 +619,5 @@
       "category": "Auto"
     }
   ],
-  "forceStoreUpdate": true
+  "forceStoreUpdate": false
 }
