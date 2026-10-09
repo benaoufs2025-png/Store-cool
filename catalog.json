@@ -619,5 +619,6 @@
       "category": "Auto"
     }
   ],
-  "forceStoreUpdate": false
+  "forceStoreUpdate": false,
+  "catalogRevision": "2026-10-09-1"
 }
