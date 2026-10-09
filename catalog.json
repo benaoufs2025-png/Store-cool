@@ -609,17 +609,17 @@
       "id": "diplay",
       "name": "DiPlay",
       "packageName": "com.shihab.diplay",
-      "versionName": "0.2.14",
-      "versionCode": 33,
+      "versionName": "0.2.16",
+      "versionCode": 35,
       "description": "Interface CarPlay pour l’écran embarqué, avec connexion USB et fonctions de projection.",
-      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/DiPlay-0.2.14.apk",
-      "sha256": "62b31f79db32bc7c85013ae830460b697a5952fad571ed0030b97341dde0b2e3",
-      "sizeBytes": 38984796,
-      "minAndroid": 28,
+      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/DiPlay-0.2.16.apk",
+      "sha256": "3d9e4b5da8457ea722112c48df99f2999c1eb56e02f365c6626c47d7bdbe31fc",
+      "sizeBytes": 17261776,
+      "minAndroid": 25,
       "category": "Auto",
       "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/diplay.png"
     }
   ],
   "forceStoreUpdate": false,
-  "catalogRevision": "2026-10-09-2"
+  "catalogRevision": "2026-10-09-3"
 }
