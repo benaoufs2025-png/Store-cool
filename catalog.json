@@ -606,19 +606,20 @@
       "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/bouton-coolray.png"
     },
     {
-      "id": "retour-volume-media",
-      "name": "Retour volume média",
-      "packageName": "local.flyme.audioreset.manual",
-      "versionName": "1.1",
-      "versionCode": 2,
-      "description": "Rétablit manuellement le volume média sur Flyme Auto.",
-      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v10/Retour-volume-media-manuel-Mackiller.apk",
-      "sha256": "4367735244924babd3254bd1c5d020ed95ad585dd77a7ab23fbfe0ccc71c08cb",
-      "sizeBytes": 12763,
-      "minAndroid": 26,
-      "category": "Auto"
+      "id": "diplay",
+      "name": "DiPlay",
+      "packageName": "com.shihab.diplay",
+      "versionName": "0.2.14",
+      "versionCode": 33,
+      "description": "Interface CarPlay pour l’écran embarqué, avec connexion USB et fonctions de projection.",
+      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/DiPlay-0.2.14.apk",
+      "sha256": "62b31f79db32bc7c85013ae830460b697a5952fad571ed0030b97341dde0b2e3",
+      "sizeBytes": 38984796,
+      "minAndroid": 28,
+      "category": "Auto",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/diplay.png"
     }
   ],
   "forceStoreUpdate": false,
-  "catalogRevision": "2026-10-09-1"
+  "catalogRevision": "2026-10-09-2"
 }
