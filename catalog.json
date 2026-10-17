@@ -6,12 +6,12 @@
       "id": "coolstore",
       "name": "CoolStore",
       "packageName": "fr.coolray.coolstore",
-      "versionName": "3.1.0",
-      "versionCode": 22,
-      "description": "Le catalogue personnel d’applications optimisé pour l’écran du Coolray, avec installateur Flyme et statut de connexion anonyme des véhicules.",
-      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/CoolStore-v3.1.apk",
-      "sha256": "dec93b89b7440e3046fa2c74370b2440a89095621e31f841b97091079a01f8ce",
-      "sizeBytes": 876278,
+      "versionName": "3.2.0",
+      "versionCode": 23,
+      "description": "Le catalogue personnel d’applications optimisé pour l’écran du Coolray, avec identifiant véhicule pseudonyme affiché dans l’en-tête, installateur Flyme et statistiques anonymes.",
+      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/CoolStore-v3.2.apk",
+      "sha256": "619396bb89cbb5b76ca88ca95da3ca8889dc1b9886f5dfd91fff3c562a866882",
+      "sizeBytes": 880374,
       "minAndroid": 23,
       "category": "Auto",
       "featured": true
@@ -621,5 +621,5 @@
     }
   ],
   "forceStoreUpdate": false,
-  "catalogRevision": "2026-10-17-2"
+  "catalogRevision": "2026-10-17-3"
 }
