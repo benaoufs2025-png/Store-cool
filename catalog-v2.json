@@ -6,11 +6,11 @@
       "id": "coolstore",
       "name": "CoolStore",
       "packageName": "fr.coolray.coolstore",
-      "versionName": "3.3.0",
-      "versionCode": 24,
-      "description": "CoolStore avec conditions d’utilisation obligatoires, contrôle des mises à jour, identifiant véhicule pseudonyme, installateur Flyme et statistiques anonymes.",
-      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/CoolStore-v3.3.apk",
-      "sha256": "edebf56382b79b9f4f98eb6e326896964ab4ba16f3f0aeca3d237190c9de2b36",
+      "versionName": "3.4.0",
+      "versionCode": 25,
+      "description": "CoolStore avec une seule acceptation au démarrage, mise à jour obligatoire, identifiant véhicule pseudonyme et installateur Flyme.",
+      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/CoolStore-v3.4.apk",
+      "sha256": "e7bed86714c72b515b949446a428aff8d6a00fc5f990f9420f796592aabd6f6d",
       "sizeBytes": 880374,
       "minAndroid": 23,
       "category": "Auto",
@@ -621,7 +621,7 @@
     }
   ],
   "forceStoreUpdate": true,
-  "minimumStoreVersionCode": 24,
-  "termsVersion": 1,
-  "catalogRevision": "2026-10-19-1"
+  "minimumStoreVersionCode": 25,
+  "termsVersion": 2,
+  "catalogRevision": "2026-10-19-2"
 }
