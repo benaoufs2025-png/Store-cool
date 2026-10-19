@@ -26,7 +26,7 @@ function render(){const q=document.querySelector('#search').value.toLowerCase();
 if(!shown.length){root.innerHTML='<p class="empty">Aucune application trouvée.</p>';return}
 shown.forEach(a=>{const el=document.createElement('article');el.innerHTML='<div class="icon"></div><div><h2></h2><div class="meta"></div><p class="desc"></p></div><div class="actions"><span class="size"></span><a class="install">TÉLÉCHARGER</a></div>';
 el.querySelector('.icon').textContent=icons[a.category]||'●';el.querySelector('h2').textContent=a.name;el.querySelector('.meta').textContent=a.category+' · v'+a.versionName;el.querySelector('.desc').textContent=a.description;el.querySelector('.size').textContent=size(a.sizeBytes);el.querySelector('a').href=a.apkUrl;root.appendChild(el)})}
-fetch('./catalog.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{apps=d.apps;document.querySelector('#count').textContent=apps.length+' APPS';const cats=['Toutes',...new Set(apps.map(a=>a.category))];const f=document.querySelector('#filters');
+fetch('./catalog-v2.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{apps=d.apps;document.querySelector('#count').textContent=apps.length+' APPS';const cats=['Toutes',...new Set(apps.map(a=>a.category))];const f=document.querySelector('#filters');
 cats.forEach((c,i)=>{const b=document.createElement('button');b.textContent=(icons[c]||'⌂')+' '+c;b.className=i?'':'active';b.onclick=()=>{category=c;[...f.children].forEach(x=>x.classList.remove('active'));b.classList.add('active');render()};f.appendChild(b)});render()}).catch(()=>document.querySelector('#apps').innerHTML='<p class="empty">Catalogue indisponible.</p>');
 document.querySelector('#search').addEventListener('input',render);
 </script></body></html>
