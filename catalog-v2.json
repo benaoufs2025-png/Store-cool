@@ -311,15 +311,29 @@
       "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/spotify-lite.png"
     },
     {
+      "id": "waze",
+      "name": "Waze",
+      "packageName": "com.waze",
+      "versionName": "4.107.1.0",
+      "versionCode": 1030489,
+      "description": "Navigation GPS collaborative avec trafic, alertes et itinéraires en temps réel.",
+      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/Waze-4.107.1.0.apk",
+      "sha256": "312c5e6b1347e085c1a78f7c0321ffaeac716b0b6b1a900f794d867639df7fe1",
+      "sizeBytes": 102740608,
+      "minAndroid": 26,
+      "category": "Navigation",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/waze.webp"
+    },
+    {
       "id": "sunray-toolkit",
       "name": "Sunray Toolkit",
       "packageName": "com.dmkcv.sunray",
-      "versionName": "1.3",
-      "versionCode": 111,
+      "versionName": "1.4.2",
+      "versionCode": 122,
       "description": "Boîte à outils Sunray pour le système embarqué.",
-      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v6/sunray-release-1.3.apk",
-      "sha256": "5b5c8fc16b6fa94e65fc4abf706718afe91be390a2c6b437d8182f6b742c5b29",
-      "sizeBytes": 7417912,
+      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/sunray-prerelease-1.4.2-122.apk",
+      "sha256": "8896a7281668ff57c39d794c096399b2a7bd78564106834974d609a76256a0de",
+      "sizeBytes": 8074048,
       "minAndroid": 28,
       "category": "Auto",
       "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/sunray-toolkit.png"
@@ -623,5 +637,5 @@
   "forceStoreUpdate": true,
   "minimumStoreVersionCode": 25,
   "termsVersion": 2,
-  "catalogRevision": "2026-10-19-4"
+  "catalogRevision": "2026-10-25-1"
 }
