@@ -606,6 +606,20 @@
       "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/bouton-coolray.png"
     },
     {
+      "id": "goodev-volume-booster",
+      "name": "Volume Booster GOODEV",
+      "packageName": "com.goodev.volume.booster",
+      "versionName": "6.8.1",
+      "versionCode": 66,
+      "description": "Amplifie le volume audio de l’écran embarqué.",
+      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/Volume-Booster-GOODEV-6.8.1.apk",
+      "sha256": "7490d7e8cf1d491c30ae8421acca66053a0b87a8b57a92dbbc9a121e6bf56449",
+      "sizeBytes": 3526498,
+      "minAndroid": 16,
+      "category": "Audio",
+      "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/goodev-volume-booster.png"
+    },
+    {
       "id": "diplay",
       "name": "DiPlay",
       "packageName": "com.shihab.diplay",
@@ -623,5 +637,5 @@
   "forceStoreUpdate": true,
   "minimumStoreVersionCode": 25,
   "termsVersion": 2,
-  "catalogRevision": "2026-10-25-2"
+  "catalogRevision": "2026-11-08-1"
 }
