@@ -525,12 +525,12 @@
       "id": "drama-live",
       "name": "Drama Live",
       "packageName": "com.livedrama.app",
-      "versionName": "25",
+      "versionName": "26",
       "versionCode": 2147483647,
-      "description": "Drama Live v25, mis à jour pour le divertissement sur l’écran du Coolray.",
-      "apkUrl": "https://github.com/benaoufs2025-png/Store-cool/releases/download/apps-v12/Drama_Live_v25.00_By_play8store.apk",
-      "sha256": "dfde4d5a794550f20c530c7f7bfba4e2b83517ffa93b7bc785c3a5be62b6a53f",
-      "sizeBytes": 16420153,
+      "description": "Drama Live v26, mis à jour pour le divertissement sur l’écran du Coolray.",
+      "apkUrl": "https://benaoufs2025-png.github.io/Store-cool/Drama-Live-v26.apk",
+      "sha256": "6ef8412912aeec8dd804fac711305b43a027570e80ce22155c29fbbeb4c8e1d3",
+      "sizeBytes": 30724542,
       "minAndroid": 16,
       "category": "Multimédia",
       "iconUrl": "https://benaoufs2025-png.github.io/Store-cool/icons/drama-live.png"
@@ -637,5 +637,5 @@
   "forceStoreUpdate": true,
   "minimumStoreVersionCode": 25,
   "termsVersion": 2,
-  "catalogRevision": "2026-11-08-1"
+  "catalogRevision": "2026-11-25-1"
 }
